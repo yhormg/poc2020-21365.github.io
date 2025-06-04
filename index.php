@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-	<?php $fp = fopen("/etc/passwd", "r") or die("Unable to open file!"); 
+	<?php $fp = fopen("../../../../../../../../../etc/passwd", "r") or die("Unable to open file!"); 
 	echo fread($fp,filesize("test.txt"));
 	?>
 </body>
